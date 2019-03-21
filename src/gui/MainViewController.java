@@ -33,7 +33,7 @@ public class MainViewController implements Initializable{
 	}
 	
 	public void onMenuDepartamentoAction() {
-		System.out.println("Departamento");
+		carregarTela("/gui/DepartamentoList.fxml");
 	}
 
 	public void onMenuAboutAction() {
