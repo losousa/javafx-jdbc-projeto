@@ -47,6 +47,7 @@ public class MainViewController implements Initializable{
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 	}
+	
 	public synchronized <T> void carregarTela(String nomeDaView,Consumer<T> acaoDeInicializacao) {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(nomeDaView));
